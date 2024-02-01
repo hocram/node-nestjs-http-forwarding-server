@@ -1,0 +1,32 @@
+# Git
+.git
+
+# OS System files
+.DS_Store
+Thumbs.db
+
+# Compiled output
+*/dist
+*/tmp
+
+# Ignore build or distribution files
+/build/
+/dist/
+
+# Ignore generated Node.js modules
+node_modules/
+package-lock.json
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific directories
+.vscode/
+.idea/
+
+# Env
+#**/*.env
+#!**/environment/dev.env
+
+# Database
+db/db.sqlite
